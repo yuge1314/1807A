@@ -1,0 +1,42 @@
+git
+文件版本工具
+
+git init 
+初始化---只执行一次------以下是个常态
+
+git status
+查看状态
+
+git add . || *.js
+把文件放到暂存区
+
+git commit -m '备注，这次修改了哪了,'
+提交到本地版本库
+
+（可以简写）
+git commit -a -m "备注"
+
+上面的完事之后 git status 一下
+
+gitk
+查看日志
+
+git remote add origin git@github.com:xiaosi0707/1807.git
+关联
+
+git push origin master
+把本地代码提交到远程仓库
+
+git clone git@github.com:xiaosi0707/1807.git ‘名字’
+克隆
+
+git pull origin master
+拉
+
+///前提    整一下   key
+网址
+https://note.youdao.com/ynoteshare1/index.html?id=87d58c9aeb0285338517654ec4552d27&type=notebook#/E9954654447841D29E60AEBBD6456EDB
+
+//
+
+
